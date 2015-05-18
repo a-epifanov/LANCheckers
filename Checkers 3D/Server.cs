@@ -96,7 +96,7 @@ namespace GameServer
         {
             try
             {
-                Shared.SharedCode.EnemyPlayer.Name = ((Server)sender).GetClientInformation(e.Message.PlayerID).Name;
+                //Shared.SharedCode.EnemyPlayer.Name = ((Server)sender).GetClientInformation(e.Message.PlayerID).Name;
                 MessageBox.Show(string.Format
                     ("Установлено новое соединение с {0}",
                     Shared.SharedCode.EnemyPlayer.Name),
